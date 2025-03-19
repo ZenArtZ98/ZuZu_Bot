@@ -6,9 +6,9 @@ import requests
 import re
 from parsel import Selector
 
-api_id = "https://my.telegram.org"
-api_hash = 'https://my.telegram.org'
-bot_token = 'https://t.me/BotFather'
+api_id = "YOUR_API_ID"
+api_hash = 'YOUR_API_HASH'
+bot_token = 'YOUR_BOT_TOKEN'
 
 client = TelegramClient('bot', api_id, api_hash)
 
